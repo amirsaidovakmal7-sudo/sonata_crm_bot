@@ -213,3 +213,5 @@ def add_complex_lead(name, phone_number, username, tg_id, user_language, directi
 
 
 
+amowrapper = AmoCRMWrapper()
+amowrapper.init_oauth2()
